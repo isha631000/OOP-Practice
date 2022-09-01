@@ -1,0 +1,4 @@
+Two types of polymorphisms-
+1. Compile time : Overloading
+2. Runtime : Virtual functions, Overriding (used in inheritance)
+
