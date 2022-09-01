@@ -1,4 +1,30 @@
 Two types of polymorphisms-
-1. Compile time : Overloading
+1. Compile time : Overloading also called early overbinding
 2. Runtime : Virtual functions, Overriding (used in inheritance)
 
+In c++ by default everything in the class is private. So we make it public by writing "public:" in the start.
+
+Code for function overloading:
+
+#include <iostream>
+using namespace std;
+
+class info {
+  public:
+    void isha ( string name ) {
+      cout<<" Her name is "<<name<<endl;
+      }
+    void isha ( int age ) {
+      cout<<" Her age is "<<age<<endl;
+      }
+      };
+  int main() {
+    info obj1;
+    obj1.isha(20);
+    return 0;
+    }
+    
+
+
+
+  
