@@ -1,0 +1,12 @@
+SINGLE LEVEL 
+
+class one{
+  public:
+    a=10
+class two : public one {
+  b=90
+int main() {
+  two obj;
+  cout<<obj.b<<endl;
+  return 0;
+  
